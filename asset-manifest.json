@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/routerProject/static/css/main.8fd3452e.css",
-    "main.js": "/routerProject/static/js/main.1d05e308.js",
+    "main.js": "/routerProject/static/js/main.5394c573.js",
     "static/media/photoMusic3.mp3": "/routerProject/static/media/photoMusic3.c2bb9187682e9a17229d.mp3",
     "static/media/cat.jpg": "/routerProject/static/media/cat.32b61385e1951b5432e8.jpg",
     "static/media/20200214_194305.jpg": "/routerProject/static/media/20200214_194305.ab5e20c4ec5bac630d34.jpg",
@@ -24,10 +24,10 @@
     "static/media/IMG_20210514_221615_587.jpg": "/routerProject/static/media/IMG_20210514_221615_587.e4ba156db8cdd846ede9.jpg",
     "index.html": "/routerProject/index.html",
     "main.8fd3452e.css.map": "/routerProject/static/css/main.8fd3452e.css.map",
-    "main.1d05e308.js.map": "/routerProject/static/js/main.1d05e308.js.map"
+    "main.5394c573.js.map": "/routerProject/static/js/main.5394c573.js.map"
   },
   "entrypoints": [
     "static/css/main.8fd3452e.css",
-    "static/js/main.1d05e308.js"
+    "static/js/main.5394c573.js"
   ]
 }
