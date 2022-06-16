@@ -1,0 +1,212 @@
+.polaroidPageButton{
+    z-index: 5;
+    width: 40vw;
+    height: 40vw;
+    background-color: #B5E4FF;
+    position: absolute;
+    border-radius: 100vw;
+    border: black;
+    outline: black;
+    text-align: center;
+    align-self: center;
+    top: calc(50vh - 20vw);
+    left: calc(50vw - 20vw);
+    transition-duration: 5s;
+    filter: drop-shadow(3px 10px 8px #e3c0b9);
+}
+
+.polaroidPageButtonFrame1{
+    z-index: 6;
+    width: 0vw;
+    height: 0vw;
+    background-color: transparent;
+    position: absolute;
+    border-radius: .1vw;
+    border: none;
+    outline: none;
+    text-align: center;
+    align-self: center;
+    top: calc(55vh);
+    left: calc(50vw);
+    transition-duration: 1s;
+}
+
+
+.polaroidPageButtonFrame2{
+    z-index: 6;
+    width: 40vw;
+    height: 40vw;
+    background-color: #7193a9;
+    position: absolute;
+    border-radius: 100vw;
+    border: none;
+    outline: none;
+    text-align: center;
+    align-self: center;
+    top: calc(50vh - 20vw);
+    left: calc(50vw - 20vw);
+    transition-duration: 1s;
+    pointer-events: none;
+    opacity: .5;
+}
+
+.polaroidPageButtonFrame3{
+    z-index: 6;
+    width: 300vw;
+    height: 300vw;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    text-align: center;
+    align-self: center;
+    top: calc(50vh - 150vw);
+    left: calc(50vw  - 150vw);
+    transition-duration: .9s;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.preventOverflow{
+    overflow: hidden;
+
+}
+
+
+.polaroidPageBackground{
+    background-color: #ffd7cf;
+    width: 100vw;
+    height: 100vh;
+    margin: -8px;
+    position: absolute;
+}
+
+.pressMeText{
+    position: absolute;
+    z-index: 5;
+    font-family: 'Hind', sans-serif;
+    font-size: 10vw;
+    width: 41vw;
+    height: 16vw;
+    left: calc(50vw - 20vw);
+    line-height: 1;
+    top: calc(50vh - 35vw);
+    filter: drop-shadow(0px 10px 8px #e3c0b9);
+}
+
+.true1{
+    position: fixed;
+    z-index: 40;
+    background-color: transparent;
+    width: calc(100vw + 8px);
+    height: calc(100vh + 8px);
+    margin-left: -8px;
+    margin-top: -8px;
+    transition-duration: 2s;
+    pointer-events: none;
+}
+
+.false1{
+    position: fixed;
+    z-index: 40;
+    background-color: white;
+    width: calc(100vw + 8px);
+    height: calc(100vh + 8px);
+    margin-left: -8px;
+    margin-top: -8px;
+}
+
+.polaroidPageText{
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    z-index: 30;
+    font-family: 'Hind', sans-serif;
+    font-size: 6vw;
+    top: 25vw;
+    left: calc(50% - 40vw);
+    width: 80vw;
+    height: 60vw;
+}
+
+.navButton{
+    margin-top: 1vw;
+    width: 70vw;
+    position: absolute;
+    z-index: 30;
+    font-family: 'Hind', sans-serif;
+    font-size: 4vw;
+    background-color: transparent;
+    border: none;
+    color: black;
+    text-decoration: none;
+}
+
+.navButton:active {
+    color: black;
+    text-decoration: none;
+}
+
+.navButton:focus{
+    color: black;
+    text-decoration: none;
+}
+.navButton:visited{
+    color: black;
+    text-decoration: none;
+
+}
+
+.menuFlexContainer2{
+    margin-top: 95vw;
+    position: absolute;
+    left: calc(50% - 40vw);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 8vw;
+}
+
+.infoTitle{
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    z-index: 30;
+    font-family: 'Hind', sans-serif;
+    font-size: 6vw;
+    top: 25vw;
+    left: calc(50% - 40vw);
+    width: 80vw;
+    height: 60vw;
+}
+
+.infoImage{
+    position: absolute;
+    width: 90vw;
+    height: 90vw;
+    z-index: 40;
+    object-fit: cover;
+    margin-top: 100vw;
+    left: calc(50% - 45vw);
+    border-radius: 3vw;
+    filter: drop-shadow(3px 10px 8px #e3c0b9);
+    object-position: 0% 56%;
+}
+
+.asdf{
+    width: 200px;
+    height: 200px;
+    z-index: 35;
+}
+
+
+
+
+
+
+
+

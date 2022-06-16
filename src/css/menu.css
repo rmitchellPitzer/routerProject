@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+
+.background{
+    background-color: #ffd7cf;
+    width: 100vw;
+    height: 1075vw;
+    margin: -8px;
+    position: absolute;
+}
+
+.appTitle{
+    font-family: 'Hind', sans-serif;
+    font-size: 10vw;
+    width: 80vw;
+    height: 16vw;
+    z-index: 20;
+    margin-left: -10vw;
+    line-height: 1;
+    margin-top: 2vw;
+}
+
+.menuFlexContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 8vw;
+}
+
+
+
+.sometext{
+    z-index: 5;
+    font-size: 10vw;
+}
+
+.transparentPolaroidButton{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+

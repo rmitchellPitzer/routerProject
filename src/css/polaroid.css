@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Hind&display=swap');
+
+.whitePolaroidBackground{
+    width: 60vw;
+    height: 72vw;
+    background-color: white;
+    z-index: 1;
+    filter: drop-shadow(0px 10px 8px #e3c0b9);
+    border-radius: 1vw;
+    border: none;
+    outline: none;
+}
+
+.polaroidImage{
+    width: 54vw;
+    height: 54vw;
+    /*margin-left: calc(3vw);*/
+    z-index: 2;
+    margin-top: -10vw;
+    object-fit: cover;
+
+}
+
+.polaroidFrontText{
+    font-family: 'Gloria Hallelujah', cursive;
+    z-index: 3;
+    position: absolute;
+    align-self: center;
+    width: 57.5vw;
+    text-align: center;
+    font-size: 5vw;}
+
+.polaroidBackText{
+    font-family: 'Gloria Hallelujah', cursive;
+    z-index: 3;
+    position: absolute;
+    align-self: center;
+    width: 57.5vw;
+    text-align: center;
+    font-size: 4.4vw;
+    margin-top: -35vw;}
+
+
+
+
+
+
+
+.whitePolaroidBackground2{
+    width: 80vw;
+    height: 96vw;
+    background-color: white;
+    z-index: 1;
+    filter: drop-shadow(0px 10px 8px #e3c0b9);
+    border-radius: 2vw;
+    border: none;
+    outline: none;
+    margin-top: -15vw;
+}
+
+.polaroidImage2{
+    width: 72vw;
+    height: 72vw;
+    /*margin-left: calc(3vw);*/
+    z-index: 2;
+    margin-top: -15vw;
+    object-fit: cover;
+}
+
+
+.polaroidFrontText2{
+    font-family: 'Gloria Hallelujah', cursive;
+    z-index: 3;
+    position: absolute;
+    align-self: center;
+    width: 76.666vw;
+    text-align: center;
+    font-size: 6.666vw;}
+
+#moveYDirection{
+    object-position: 0% 15%;
+}
+
+#moveYDirection2{
+    object-position: 0% 0%;
+}
+
+#moveXDirection{
+    object-position: 50% 50%;
+
+
+
+}
